@@ -9,7 +9,6 @@ To perform Matrix addition with unified memory and check its performance with nv
 
 Step 1 :
 Include the required files and library.
-
 Step 2 :
 Introduce a function named "initialData","sumMatrixOnHost","checkResult" to return the initialize the data , perform matrix summation on the host and then check the result.
 
