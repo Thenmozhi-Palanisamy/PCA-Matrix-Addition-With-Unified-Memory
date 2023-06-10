@@ -359,14 +359,14 @@ int main(int argc, char **argv)
 
 ````````
 ## output:
-``
+```
 root@MidPC:/home/student/Desktop# nvcc test.cu
-root@MidPC:/home/student/Desktop# ./a.out
-./a.out Starting using Device 0: NVIDIA GeForce GTX 1660 SUPER
-Matrix size: nx 4096 ny 4096
-initialization: 	 0.385131 sec
-sumMatrix on host:	 0.060113 sec
-sumMatrix on gpu :	 0.048901 sec <<<(128,128), (32,32)>>> 
+ root@MidPC:/home/student/Desktop# ./a.out
+ ./a.out Starting using Device 0: NVIDIA GeForce GTX 1660 SUPER
+ Matrix size: nx 4096 ny 4096
+ initialization: 	 0.385131 sec
+ sumMatrix on host:	 0.060113 sec
+ sumMatrix on gpu :	 0.048901 sec <<<(128,128), (32,32)>>> 
 root@MidPC:/home/student/Desktop# nvprof ./a.out
 ==9917== NVPROF is profiling process 9917, command: ./a.out
 ./a.out Starting using Device 0: NVIDIA GeForce GTX 1660 SUPER
