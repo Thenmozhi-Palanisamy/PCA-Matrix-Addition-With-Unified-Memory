@@ -380,7 +380,7 @@ No kernels were profiled.
 No API activities were profiled.
 ==9917== Warning: Some profiling data are not recorded. Make sure cudaProfilerStop() or cuProfilerStop() is called before application exit to flush profile data.
 ======== Error: Application received signal 139
-``
+````
 ## output:
 ![image](https://github.com/Thenmozhi-Palanisamy/PCA-Matrix-Addition-With-Unified-Memory/assets/95198708/fe58af06-ae40-4594-a8fd-7b094dbd2ec0)
 
